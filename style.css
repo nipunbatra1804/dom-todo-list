@@ -1,5 +1,5 @@
 body {
-	border: 1px dotted tomato;
+	border: 2px solid tomato;
 	box-sizing: border-box;
 	border-width: 0 1px;
 	font-family: sans-serif;
@@ -9,11 +9,47 @@ body {
 	min-height: 100vh;
 	padding: 4rem;
 }
+input {
+	border: 2px solid green;
+	width: 300px;
+	height: 20px;
+	margin: auto auto;
+}
+
+button{
+    height: 2em;
+}
 
 ul {
 	padding: 0;
+	margin: 0 auto;
+}
+.list-element{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.25em 0.50em;
 }
 
-ul li {
-	padding: 1rem 0;
+.list-element li {
+	font-size: 1em;
 }
+
+.list-element:hover {
+	background-color: rgb(86, 197, 86);
+  }
+
+.done {
+	text-decoration: line-through;
+}
+
+.remove {
+	color: whitesmoke;
+	box-sizing: border-box;
+	border: None;
+	height:auto;
+	padding: 0.25em 0.50em;
+	background-color: rgb(202, 157, 72);
+}
+
+
